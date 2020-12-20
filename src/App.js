@@ -19,21 +19,21 @@ function App() {
     <Router>
       <Switch>
 
-        {/* // home */}
+        {/* home */}
         <Route exact path="/" component={HomePage} />
 
-        {/* // services */}
+        {/* services */}
         <Route exact path="/services" 
                component={ServicesPage} />
 
-        // news
+        {/* news */}
         <Route exact path="/news" component={NewsPage} />
 
-        // work with us
+        {/* work with us */}
         <Route exact path="/work-with-us" 
                component={WorkWithUsPage} />
 
-        // privacy
+        {/* privacy */}
         <Route exact path="/privacy" 
                component={PrivacyPage} />
 
