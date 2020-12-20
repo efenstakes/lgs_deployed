@@ -42,7 +42,9 @@ function App() {
   );
 }
 
-export default App;
+export default function (){
+  return (<div>hello from LGS DEV</div>);
+};
 
 
 
